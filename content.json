@@ -1,7 +1,22 @@
 {
-  "chronoScoreContent" : [{
-  	"low" : "You are likely an Owl, and should try to organise your schedule your work between 11 am and 11 pm, as you are most likely to be productive then. Don’t go to bed too late though, as it is still healthful for Owls to have an early bed time relative to their work hours.",
-  	"medium" : "Your Circadian Rhythm is very optimised, well done!",
-  	"high" : "Your Circadian Rhythm needs urgent attention. Please seek help from your GP."
-  }]
+    "glossary": {
+        "title": "example glossary",
+		"GlossDiv": {
+            "title": "S",
+			"GlossList": {
+                "GlossEntry": {
+                    "ID": "SGML",
+					"SortAs": "SGML",
+					"GlossTerm": "Standard Generalized Markup Language",
+					"Acronym": "SGML",
+					"Abbrev": "ISO 8879:1986",
+					"GlossDef": {
+                        "para": "A meta-markup language, used to create markup languages such as DocBook.",
+						"GlossSeeAlso": ["GML", "XML"]
+                    },
+					"GlossSee": "markup"
+                }
+            }
+        }
+    }
 }
